@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1152px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.menu {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 20px;
+}
+.logo {
+  margin-left: 20px;
+}
+.cari {
+  width: 300px;
+  height: 40px;
+  border-color: brown;
+  border-radius: 50px;
+  border: 2px solid #ebebeb;
+  margin-top: 10px;
+  background-color: #f7f7f7;
+}
+.cari p {
+  border: 1px;
+  border-radius: 5px;
+  border-color: aqua;
+  text-align: left;
+  padding: 10px 0 0 25px;
+  color: #d2cecc;
+}
+.menu-link {
+  margin-left: auto;
+}
+ul {
+  margin-top: 20px;
+}
+ul li {
+  display: inline;
+  margin-right: 35px;
+  margin-top: 35px;
+}
+
+/* ini muali heroku */
+.heroku {
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-around;
+}
+.heroku-detail {
+  width: 500px;
+}
+.heroku-detail h1 {
+  font-size: 44px;
+}
+.heroku-detail p {
+  font-size: 16px;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+.heroku-detail button {
+  background-color: #ff6464;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #f7f7f7;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* ini post  */
+.post {
+  background-color: #edf7fa;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 70px;
+  margin-top: 100px;
+}
+.post-head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.post-head a {
+  text-decoration: none;
+  color: #00a8cc;
+  font-size: 16px;
+}
+.post-head h3 {
+  font-size: 22px;
+  color: #21243d;
+  font-weight: 500;
+}
+.post-body {
+  display: flex;
+  gap: 20px;
+}
+.post-body-detail {
+  background-color: #ffffff;
+  padding: 20px 25px;
+  border-radius: 10px;
+}
+.post-body-detail h2 {
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.post-body-detail p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 32px;
+}
+.post-body-info {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+/* ini fitur */
+.featur {
+  padding: 30px 70px;
+  margin-top 20px;
+}
+.fitur-detail {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #E0E0E0;
+}
+.fitur-detail h2 {
+  font-size: 20px;
+  line-height: 60px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.fitur-detail label:first-of-type {
+  background-color: #142850;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px 20px;
+  border-radius: 25px;
+  margin-right: 15px;
+}
+.fitur-detail label {
+  color: #8695A4;
+  font-size: 20px;
+}
+.fitur-detail p {
+  font-size: 16px;
+  margin-top: 20px;
+  color: #21243D;
+  line-height: 1.5;
+}
+
+/* ini footer  */
+.footer {
+  display: flex;
+  justify-content: center;
+
+}
+.footer-sosmed-icon {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 15px;
+}
+.copyright {
+  text-align: center;
+  font-size: 14px;
+  color: #21243D;
+  margin-bottom: 25px;
+
+}
