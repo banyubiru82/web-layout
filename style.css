@@ -175,3 +175,40 @@ ul li {
   margin-bottom: 25px;
 
 }
+
+@media only screen and (max-width: 700px){
+  .container {
+    width: 100%;
+    margin: auto;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+  .heroku {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 100px;
+    align-items: center;
+  }
+  .heroku-detail {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    text-align: center;
+  }
+  .fitur-detail {
+    display: flex;
+    flex-direction: column;
+  }
+  .fitur-detail-image {
+    width: 100%;
+  }
+  .post-body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
